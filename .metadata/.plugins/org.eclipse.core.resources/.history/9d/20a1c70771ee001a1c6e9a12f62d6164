@@ -1,0 +1,17 @@
+package com.biz.exec;
+
+import com.biz.interfaces.RemoconInterface;
+import com.biz.service.가회사;
+
+public class 리모콘사용 {
+	
+	public static void main(String args) {
+		
+		// 인터페이스를 상속받은 클래스들은
+		// 인터페이스로 선언을 하고 실제 클래스로 생성을 하는 구조의 코드가 된다.
+		// 
+		RemoconInterface 가 = new 가회사();
+		RemoconInterface 나 = new 나회사();
+	}
+
+}

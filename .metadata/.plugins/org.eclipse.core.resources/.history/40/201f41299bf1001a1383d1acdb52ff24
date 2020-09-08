@@ -1,0 +1,28 @@
+package com.biz.interfaces;
+
+/*
+ *  s 회사에서 이번에 대형 TV를 개발해서 
+ *  판매 시작 개시하려고한다.
+ *  가 나 다
+ *  
+ */
+
+public interface RemoconService {
+
+	class 가회사리모콘 {
+		public void 전원() {
+			System.out.println("전원on");
+		}
+
+		public void 채널() {
+			System.out.println("채널on");
+		}
+		public void  볼륨() {
+			System.out.println("볼륨on");
+			
+		}
+		
+
+	}
+
+}

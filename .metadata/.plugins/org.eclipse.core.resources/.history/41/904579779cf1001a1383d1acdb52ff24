@@ -1,0 +1,16 @@
+package com.biz.jack.service;
+
+import java.util.List;
+
+import com.biz.jack.domain.DeckVO;
+
+/*
+ *  게임에서 사용할 1벌의 게임카드를 생성
+ */
+public class DeckServiceV1 {
+	
+	// 생성된 1벌의 카드를 List에 저장
+	List<DeckVO> deckList;
+	
+
+}

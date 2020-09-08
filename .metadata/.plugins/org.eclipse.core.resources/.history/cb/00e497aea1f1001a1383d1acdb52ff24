@@ -1,0 +1,38 @@
+package com.biz.jack.exec;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.biz.jack.domain.DeckVO;
+
+public class PlayerServiceV1 {
+	
+	// 각 플레이어(딜러포함)가 받은 카드를 저장할 List
+	List<DeckVO> myDeckList;
+	
+	// Deck에서 한장씩 플레이어게 전달할 카드들
+	List<DeckVO> pubDeckList;
+	String playerName;
+	
+	public PlayerServiceV1(List<DeckVO> deckList) {
+		this(deckList,"딜러");
+	}
+	
+	public PlayerServiceV1(List<DeckVO> deckList, String playName) { 
+		
+		this.myDeckList = new ArrayList<DeckVO>();
+		this.pubDeckList = deckList;
+		this.playerName = playName;
+	}
+	
+	// 자신이 받은 카드의 점수를 계산하는 method
+	public int sumValue() {
+		
+		int sumValue = 0;
+		for(DeckVO vo : myDeckList) {
+			sumValue += vo.getValue();
+		}
+		return sumValue;
+	}
+
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.biz.service.가회사"/>
+<fullyQualifiedTypeName name="com.biz.interfaces.RemoconInterface"/>
+<fullyQualifiedTypeName name="com.biz.service.나회사"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.biz.jack.service.DeckServiceV1"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.biz.jack.domain.DeckVO"/>
+<fullyQualifiedTypeName name="com.biz.jack.exec.PlayerServiceV1"/>
+</qualifiedTypeNameHistroy>

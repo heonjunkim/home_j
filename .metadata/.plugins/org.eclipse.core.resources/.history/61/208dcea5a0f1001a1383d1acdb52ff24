@@ -1,0 +1,20 @@
+package com.biz.jack.exec;
+
+import java.util.List;
+
+import com.biz.jack.domain.DeckVO;
+
+public class PlayerServiceV1 {
+	
+	List<DeckVO> myDeckList;
+	List<DeckVO> pubDeckList;
+	
+	String playerName;
+	
+	public PlayerServiceV1(List<DeckVO> deckList, String playName) { 
+		
+		this.pubDeckList = deckList;
+		this.playerName = playName;
+	}
+
+}
